@@ -69,13 +69,13 @@ h4 {
 
 /* Header styles */
 header {
-  background: url("assets/backgrounds/landing.jpg") no-repeat center
+  background: url("/images/landing.jpg") no-repeat center
     center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 80vh;
+  height: 600px;
 }
 
 .big-logo {
@@ -83,7 +83,7 @@ header {
 }
 
 #offers {
-  height: 20vh;
+  height: 200px;
   display: flex;
 }
 
@@ -112,12 +112,12 @@ header {
 #breakfast {
   background: url("/images/breakfast.jpg") no-repeat center center/cover;
   width: 25%;
-  height: 20vh;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 30px;
   font-family: "BioRhyme";
   font-style: italic;
 }
@@ -134,12 +134,12 @@ header {
 #lunch {
   background: url("/images/lunch.jpg") no-repeat center center/cover;
   width: 25%;
-  height: 20vh;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 20px;
   font-family: "BioRhyme";
   font-style: italic;
 }
@@ -156,7 +156,7 @@ header {
 #dinner {
   background: url("/images/dinner.jpg") no-repeat center center/cover;
   width: 25%;
-  height: 20vh;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,7 +176,7 @@ header {
 }
 
 #happy-hour {
-  height: 10vh;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -285,7 +285,7 @@ figcaption {
   list-style-type: none;
   padding: 2%;
   color: #000;
-  font-size: 1.3em;
+  font-size: 30%;
   text-align: center;
   display: inline-block;
   width: 25%;
@@ -312,14 +312,14 @@ figcaption {
 /* Navigation buttons styling */
 .navigator {
   color: #f15a29;
-  font-size: 2em;
+  font-size: 2px;
   font-weight: bold;
   cursor: pointer;
 }
 
 /* Customer reviews styling */
 #reviews {
-  height: 50vh;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,7 +356,7 @@ figcaption {
 
 /* Call to action area */
 #subscribe {
-  background: url("assets/backgrounds/subscribe.jpg") no-repeat center
+  background: url("/images/subscribe.jpg") no-repeat center
     center/cover;
   height: 300px;
   display: flex;
@@ -368,13 +368,13 @@ figcaption {
 #subscribe p {
   color: #fff;
   font-family: "BioRhyme";
-  font-size: 1.5em;
+  font-size: 5%;
   font-weight: 700;
-  margin-bottom: 2em;
+  margin-bottom: 20px;
 }
 
 input[type="text"] {
-  padding: 0.5em 0.7em;
+  padding: 10px 10px;
   width: 50%;
   border-radius: 2px;
   border: none;
@@ -384,11 +384,11 @@ input[type="text"] {
 .btn-subscribe {
   text-decoration: none;
   font-weight: bold;
-  padding: 0.5em 3em;
+  padding: 15px 20px;
   border-radius: 2px;
   color: #fff;
   background: #f15a29;
-  margin-left: 0.7em;
+  margin-left: 20px;
 }
 
 /* Footer section */
@@ -407,25 +407,25 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2em;
+  margin-bottom: 20px;
 }
 
 #menu-logo-footer img {
-  margin-right: 1.5em;
+  margin-right: 15px;
   height: 50px;
 }
 
 #menu-text {
   text-transform: uppercase;
   font-family: "BioRhyme";
-  font-size: 2rem;
+  font-size: 20px;
   margin: 0;
 }
 
 #social-icons {
   color: #fff;
   display: flex;
-  margin: 3em auto;
+  margin: 10% auto;
   justify-content: space-between;
   width: 50%;
 }
