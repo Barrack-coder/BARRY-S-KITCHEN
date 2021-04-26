@@ -1,8 +1,7 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 nav {
@@ -11,441 +10,430 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 600px;
+    height: 700px;
 }
 
-#logo{
+#logo {
     width: 80%;
 }
 
-
-
-
-#flex-column > p {
-  padding: 10px 15px;
+#flex-column>p {
+    padding: 10px 15px;
 }
 
 #party-time {
-  background: #f15a29;
-  color: #fff;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background: #f15a29;
+    color: #fff;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
-  color: #fff;
-  margin: 2px;
-  text-transform: capitalize;
-  font-family: "BioRhyme";
-  font-weight: 200;
+    color: #fff;
+    margin: 2px;
+    text-transform: capitalize;
+    font-family: "BioRhyme";
+    font-weight: 200;
 }
 
-h1 > span {
-  font-weight: 700;
+.food {
+    display: flex;
 }
 
-h3,
+.photo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image {
+    flex-direction: column;
+    border: 10px solid rgb(238, 230, 230);
+    box-shadow: 0 0 4px whitesmoke;
+    width: 80%;
+    margin: ;
+}
+
+h1>span {
+    font-weight: 700;
+}
+
 h4 {
-  text-transform: capitalize;
-  font-family: "BioRhyme";
-}
-
-#fast-food-description h3 {
-  font-size: 2px;
-  margin: 15px 0;
-}
-
-#drinks-description h3 {
-  font-size: 2em;
-  margin: 15px 0;
+    text-transform: capitalize;
+    font-family: "BioRhyme";
 }
 
 .arrow {
-  font-weight: bolder;
-  font-size: 2px;
+    font-weight: bolder;
+    font-size: 2px;
 }
 
+
 /* Header styles */
+
 header {
-  background: url("/images/landing.jpg") no-repeat center
-    center/cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 600px;
+    background: url("/images/landing.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
 }
 
 .big-logo {
-  width: 40%;
+    width: 40%;
 }
 
 #offers {
-  height: 200px;
-  display: flex;
+    height: 200px;
+    display: flex;
 }
 
-#offers > p {
-  text-transform: capitalize;
+#offers>p {
+    text-transform: capitalize;
 }
 
 #flex-column {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
 }
 
 .menu-item {
-  align-self: center;
-  padding: 3px;
+    align-self: center;
+    padding: 3px;
 }
 
 .menu-hover:hover {
-  background: rgba(255, 255, 255, 0.5);
-  color: #000;
-  cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+    cursor: pointer;
 }
 
+
 /* Menu offerings area */
+
 #breakfast {
-  background: url("/images/breakfast.jpg") no-repeat center center/cover;
-  width: 25%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 30px;
-  font-family: "BioRhyme";
-  font-style: italic;
+    background: url("/images/breakfast.jpg") no-repeat center center/cover;
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: "BioRhyme";
+    font-style: italic;
 }
 
 #breakfast:hover {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("/images/breakfast.jpg") no-repeat center center/cover;
-  color: #000;
+    background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/images/breakfast.jpg") no-repeat center center/cover;
+    color: #000;
 }
 
 #lunch {
-  background: url("/images/lunch.jpg") no-repeat center center/cover;
-  width: 25%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 20px;
-  font-family: "BioRhyme";
-  font-style: italic;
+    background: url("/images/lunch.jpg") no-repeat center center/cover;
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "BioRhyme";
+    font-style: italic;
 }
 
 #lunch:hover {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("/images/lunch.jpg") no-repeat center center/cover;
-  color: #000;
+    background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/images/lunch.jpg") no-repeat center center/cover;
+    color: #000;
 }
 
 #dinner {
-  background: url("/images/dinner.jpg") no-repeat center center/cover;
-  width: 25%;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 20%;
-  font-family: "BioRhyme";
-  font-style: italic;
+    background: url("/images/dinner.jpg") no-repeat;
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20%;
+    font-family: "BioRhyme";
+    font-style: italic;
+    background-position: center;
+    background-size: cover;
 }
 
 #dinner:hover {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("/images/dinner2.jpg") no-repeat center center/cover;
-  color: #000;
+    background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/images/dinner2.jpg") no-repeat center center/cover;
+    color: #000;
 }
 
 #happy-hour {
-  height: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /****** Fast food section ******/
-/* Flex food images to be in column */
 
-#fast-food {
-  display: flex;
-  width: 70%;
-  margin: 10% auto;
-}
 
-#fast-food-images {
-  display: flex;
-  flex-direction: column;
-  border: 10px solid #fff;
-  box-shadow: 2px 2px 20px #a9a9a9;
+/* Flex food images to be in column *
 
-  height: 100%;
-}
-
-#fast-food-description {
-  margin-left: 5em;
-}
 
 /* Button styling */
 
 .btn {
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  color: #f15a29;
-  border: 1px solid #f15a29;
-  font-weight: bold;
-  padding: 1px 1px;
-  border-radius: 5px;
-  display: block;
-  width: 200px;
-  margin-top: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #f15a29;
+    border: 1px solid #f15a29;
+    font-weight: bold;
+    padding: 1px 1px;
+    border-radius: 5px;
+    display: block;
+    width: 200px;
+    margin-top: 1px;
 }
 
 .btn-right {
-  position: absolute;
-  left: 30%;
+    /* position: absolute; */
+    left: 30%;
 }
 
+
 /****** Fast food section ******/
+
+
 /* Flex food images to be in column */
 
 #drinks {
-  display: flex;
-  width: 70%;
-  margin: 10% auto;
+    display: flex;
+    width: 70%;
+    margin: 10% auto;
 }
 
 #drinks-images {
-  display: flex;
-
-  width: 100%;
-  border: 10px solid #fff;
-  box-shadow: 2px 2px 20px #a9a9a9;
-
-  height: 100%;
+    display: flex;
+    width: 100%;
+    border: 10px solid #fff;
+    box-shadow: 2px 2px 20px #a9a9a9;
+    height: 100%;
 }
 
 .food-shadow {
-  box-shadow: 3px 3px 20px #a9a9a9;
+    box-shadow: 3px 3px 20px #a9a9a9;
 }
 
 #drinks-description {
-  margin-right: 5px;
-  text-align: right;
-  position: relative;
+    margin-right: 5px;
+    text-align: right;
+    position: relative;
 }
 
-/* Tabbed menu section */
-#tabbed-menu {
-  background: url("assets/backgrounds/foodsBg.jpg") no-repeat center
-    center/cover;
 
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Tabbed menu section */
+
+#tabbed-menu {
+    background: url("assets/backgrounds/foodsBg.jpg") no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #tabbed-menu-inner {
-  margin: 0 auto;
-  background: #fff;
-  width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    width: 80%;
 }
+
 #our-food {
-  width: 100%;
-  margin: 0;
+    width: 100%;
+    margin: 0;
 }
 
 figcaption {
-  text-align: center;
-  color: #f15a29;
-  font-weight: bold;
+    text-align: center;
+    color: #f15a29;
+    font-weight: bold;
 }
 
 #our-food li {
-  list-style-type: none;
-  padding: 2%;
-  color: #000;
-  font-size: 30%;
-  text-align: center;
-  display: inline-block;
-  width: 25%;
-  border-right: 1px solid #a9a9a9;
+    list-style-type: none;
+    padding: 2%;
+    color: #000;
+    font-size: 30%;
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    border-right: 1px solid #a9a9a9;
 }
 
 #our-food li:not(:first-child) {
-  background: lightgrey;
+    background: lightgrey;
 }
 
 #our-food li:first-child {
-  color: #f15a29;
+    color: #f15a29;
 }
 
 #fast-food-tab {
-  display: flex;
-  width: 90%;
-  height: 300px;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 /* Navigation buttons styling */
+
 .navigator {
-  color: #f15a29;
-  font-size: 2px;
-  font-weight: bold;
-  cursor: pointer;
+    color: #f15a29;
+    font-size: 2px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
+
 /* Customer reviews styling */
+
 #reviews {
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #customer-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 80%;
-  box-shadow: 3px 3px 10px #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 3px 3px 10px #dcdcdc;
 }
 
 #menu {
-  width: 40%;
-  padding-left: 4%;
-  border-left: 1px solid #dcdcdc;
-  margin: 4% 0;
+    width: 40%;
+    padding-left: 4%;
+    border-left: 1px solid #dcdcdc;
+    margin: 4% 0;
 }
 
 #customers {
-  width: 40%;
-  padding-right: 4%;
-  text-align: center;
-  margin: 4% 0;
+    width: 40%;
+    padding-right: 4%;
+    text-align: center;
+    margin: 4% 0;
 }
 
 #customer-pics {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+
 /* Call to action area */
+
 #subscribe {
-  background: url("/images/subscribe.jpg") no-repeat center
-    center/cover;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    background: url("/images/subscribe.jpg") no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #subscribe p {
-  color: #fff;
-  font-family: "BioRhyme";
-  font-size: 5%;
-  font-weight: 700;
-  margin-bottom: 20px;
+    color: #fff;
+    font-family: "BioRhyme";
+    font-size: 5%;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 input[type="text"] {
-  padding: 10px 10px;
-  width: 50%;
-  border-radius: 2px;
-  border: none;
-  opacity: 0.3;
+    padding: 10px 10px;
+    width: 50%;
+    border-radius: 2px;
+    border: none;
+    opacity: 0.3;
 }
 
 .btn-subscribe {
-  text-decoration: none;
-  font-weight: bold;
-  padding: 15px 20px;
-  border-radius: 2px;
-  color: #fff;
-  background: #f15a29;
-  margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 2px;
+    color: #fff;
+    background: #f15a29;
+    margin-left: 20px;
 }
 
+
 /* Footer section */
+
 footer {
-  background: #f15a29;
-  color: #fff;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
+    background: #f15a29;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
 }
 
 #menu-logo-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 #menu-logo-footer img {
-  margin-right: 15px;
-  height: 50px;
+    margin-right: 15px;
+    height: 50px;
 }
 
 #menu-text {
-  text-transform: uppercase;
-  font-family: "BioRhyme";
-  font-size: 20px;
-  margin: 0;
+    text-transform: uppercase;
+    font-family: "BioRhyme";
+    font-size: 20px;
+    margin: 0;
 }
 
 #social-icons {
-  color: #fff;
-  display: flex;
-  margin: 10% auto;
-  justify-content: space-between;
-  width: 50%;
+    color: #fff;
+    display: flex;
+    margin: 10% auto;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .facebook {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .twitter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .twitter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
