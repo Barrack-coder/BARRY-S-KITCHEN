@@ -1,20 +1,40 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 nav {
-    background: url(/images/landing.jpg) no-repeat center center/cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: url("./images/landing.jpg") no-repeat center center/cover;
+    height: 700px;
+}
+
+button {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    border: none;
+}
+
+.A {
+    top: 100px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 700px;
 }
 
-#logo {
-    width: 80%;
+.A figure figcaption {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 #flex-column>p {
@@ -51,8 +71,8 @@ h1 {
     flex-direction: column;
     border: 10px solid rgb(240, 236, 236);
     box-shadow: 0 0 4px whitesmoke;
-    width: 80%;
-    margin: 0 auto;
+    margin: 0 20px 0 0;
+    ;
 }
 
 h1>span {
@@ -66,7 +86,7 @@ h4 {
 
 .arrow {
     font-weight: bolder;
-    font-size: 2px;
+    font-size: 20px;
 }
 
 
@@ -141,7 +161,7 @@ header {
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "BioRhyme";
     font-style: italic;
 }
@@ -212,18 +232,30 @@ header {
 
 /* Flex food images to be in column */
 
-#drinks {
+.drinks {
     display: flex;
-    width: 70%;
-    margin: 10% auto;
+    flex-direction: row-reverse;
 }
 
 #drinks-images {
     display: flex;
-    width: 100%;
-    border: 10px solid #fff;
-    box-shadow: 2px 2px 20px #a9a9a9;
-    height: 100%;
+    border: 10px solid rgb(221, 216, 216);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-image: url("./images/foodsBg.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center 100%
+}
+
+#tabbed-menu-inner {
+    background-color: white;
+    width: 80%
 }
 
 .food-shadow {
@@ -231,31 +263,15 @@ header {
 }
 
 #drinks-description {
-    margin-right: 5px;
+    margin-right: 10px;
     text-align: right;
-    position: relative;
 }
 
 
 /* Tabbed menu section */
 
-#tabbed-menu {
-    background: url("assets/backgrounds/foodsBg.jpg") no-repeat center center/cover;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#tabbed-menu-inner {
-    margin: 0 auto;
-    background: #fff;
-    width: 80%;
-}
-
 #our-food {
-    width: 100%;
-    margin: 0;
+    display: flex;
 }
 
 figcaption {
@@ -266,17 +282,15 @@ figcaption {
 
 #our-food li {
     list-style-type: none;
-    padding: 2%;
     color: #000;
-    font-size: 30%;
+    padding: 10px;
     text-align: center;
-    display: inline-block;
     width: 25%;
-    border-right: 1px solid #a9a9a9;
 }
 
 #our-food li:not(:first-child) {
-    background: lightgrey;
+    background: rgb(187, 186, 186);
+    border: 1px solid rgba(83, 83, 83, 0.308);
 }
 
 #our-food li:first-child {
@@ -288,7 +302,7 @@ figcaption {
     width: 90%;
     height: 300px;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -350,23 +364,30 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 #subscribe p {
     color: #fff;
     font-family: "BioRhyme";
-    font-size: 5%;
+    font-size: 30px;
     font-weight: 700;
+    text-align: center;
     margin-bottom: 20px;
 }
 
-input[type="text"] {
-    padding: 10px 10px;
+input[type="email"] {
     width: 50%;
+    padding: 10px 0;
+}
+
+input[type="submit"] {
+    padding: 10px 10px;
+    width: 40%;
+    margin-left: 20px;
     border-radius: 2px;
+    background-color: #f15a29;
     border: none;
-    opacity: 0.3;
+    color: white;
 }
 
 .btn-subscribe {
