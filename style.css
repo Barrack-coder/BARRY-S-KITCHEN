@@ -379,7 +379,7 @@ figcaption {
 /* Call to action area */
 
 #subscribe {
-    background: url("/images/subscribe.jpg") no-repeat center center/cover;
+    background: url("subscribe.jpg") no-repeat center center/cover;
     height: 300px;
     display: flex;
     justify-content: center;
