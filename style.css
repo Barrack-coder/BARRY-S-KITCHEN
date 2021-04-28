@@ -257,7 +257,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 70vh;
-    background-image: url("./images/foodsBg.jpg");
+    background-image: url("foodsBg.jpg");
     background-repeat: none;
     background-size: cover;
     background-position: center 100%
